@@ -1,0 +1,52 @@
+.card{
+  border: 1px solid black; 
+  width: 25%; 
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card:hover{
+  box-shadow: 3px -4px 13px #888888;
+  cursor: pointer;
+}
+
+h2, p{
+  margin: 0; 
+}
+
+.card-header{
+  display: flex; 
+}
+
+.card-body{
+  border-top: 1px solid black;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+p{
+  text-align: justify;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+.btn{
+  border: none;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, #2a7b9b 0%, #57c785 50%, #eddd53 100%);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 100px; 
+}
+
+.btn:hover{
+  background-color: pink;
+  cursor: pointer; 
+}
+
+.main{
+  display: flex;
+  gap: 20px;
+}
